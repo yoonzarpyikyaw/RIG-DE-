@@ -1,4 +1,3 @@
-```sql
 -- e-Commerce Use Case
 -- Creating product, warehouse, and inventory tables
 -- 1. Data Definition Language (DDL) 
@@ -111,4 +110,3 @@ COMMIT;
 
 
 SELECT * FROM sales_orders;
-```
