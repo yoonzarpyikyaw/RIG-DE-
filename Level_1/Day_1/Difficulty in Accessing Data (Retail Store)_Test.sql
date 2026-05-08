@@ -1,4 +1,3 @@
-```sql
 -- Difficulty in Accessing Data (Retail Store)
 -- table creation script
 -- sample data population
@@ -298,5 +297,3 @@ FROM vw_sales_reporting
 WHERE sale_date BETWEEN '2025-10-01' AND '2026-03-31'
 GROUP BY DATE_FORMAT(sale_date, '%Y-%m'), region
 ORDER BY sales_month, region;
-
-```
