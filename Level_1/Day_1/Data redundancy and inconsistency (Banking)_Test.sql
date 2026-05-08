@@ -1,4 +1,3 @@
-```sql
 -- Data redundancy and inconsistency (Banking)
 -- Bad design tables to simulate separate files
 -- Sample data population
@@ -313,4 +312,3 @@ LEFT JOIN accounts a ON c.customer_id = a.customer_id
 LEFT JOIN loans l ON c.customer_id = l.customer_id
 LEFT JOIN credit_cards cc ON c.customer_id = cc.customer_id
 WHERE c.customer_id = 'C001';
-```
