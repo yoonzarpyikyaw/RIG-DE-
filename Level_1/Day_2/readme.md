@@ -1,64 +1,10 @@
-# HR Database ACID Assignment
+**1. ACID_Assignment.sql  
+2. ACID_Test_hr_demo.sql** တို့ကို အောက်ပါလင့် markdown file တွင် အကျယ်တဝင့်ရှင်းပြထားပါသည်။
 
-## Database
-`hr_demo`
+Click Here =>[ACID_Assignment](https://github.com/yoonzarpyikyaw/RIG-DE-/blob/f735e08bc450cd9c4dfecacc7a7975ac8e13ff0f/Level_1/Day_2/ACID_Assignment.md)  
+Click Here =>[ACID_Test_hr_demo](https://github.com/yoonzarpyikyaw/RIG-DE-/blob/f735e08bc450cd9c4dfecacc7a7975ac8e13ff0f/Level_1/Day_2/ACID_Test_hr_demo.md)  
 
----
 
-## Tables
 
-### employees
-- employee_id (PK)
-- employee_name
-- department
-- salary
-- leave_balance
 
----
-
-## Total Summary
-- Total Database : 1
-- Total Tables : 1
-
----
-
-## Features
-- CREATE DATABASE
-- CREATE TABLE
-- INSERT INTO
-- SELECT
-- UPDATE
-- TRANSACTION
-- COMMIT
-- ROLLBACK
-
----
-
-## ACID Tests
-
-### Atomicity
-- Salary update and leave balance update must both succeed together.
-- If one step fails, transaction is rolled back.
-
-### Consistency
-- Leave balance should not become negative.
-- Database remains valid after transactions.
-
-### Isolation
-- Multiple users can run transactions without affecting each other.
-- Uses `READ COMMITTED` isolation level.
-
-### Durability
-- After `COMMIT`, data remains permanently saved.
-
----
-
-## Practical Example
-Employee Promotion Process:
-- Increase salary
-- Change department
-- Add leave balance
-
-All updates succeed together or rollback together.
-
-**Yoon Zar Pyi Kyaw**
+Yoon Zar Pyi Kyaw
