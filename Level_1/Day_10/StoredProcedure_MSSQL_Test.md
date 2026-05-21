@@ -1,3 +1,4 @@
+```sql
 /* =============================================  
    COMPANY DATABASE STORED PROCEDURE LAB  
    Beginner Level MSSQL Stored Procedure Examples  
@@ -13,9 +14,7 @@ GO
   
 USE company_db;  
 GO  
-  
-![image](https://github.com/yoonzarpyikyaw/RIG-DE-/blob/8d9771739fc54cedd81d3578bd4f19bd2a968172/Level_1/Day_10/image/Screenshot_7.png)  
-  
+    
 -- =============================================  
 -- STEP 2: CREATE EMPLOYEES TABLE  
 -- =============================================  
@@ -419,3 +418,4 @@ SELECT @@SPID AS session_id;
 -- =============================================  
 -- END OF MSSQL LAB SCRIPT  
 -- =============================================  
+```
