@@ -1,3 +1,4 @@
+```sql
 /* =============================================
    COMPANY DATABASE STORED PROCEDURE LAB
    Beginner Level MSSQL Stored Procedure Examples
@@ -416,3 +417,4 @@ SELECT @@SPID AS session_id;
 -- =============================================
 -- END OF MSSQL LAB SCRIPT
 -- =============================================
+```
