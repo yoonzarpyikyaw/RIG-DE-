@@ -1,3 +1,4 @@
+```sql
 -- =====================================================
 -- SQL CLAUSES COMPLETE LAB
 -- Covers: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY
@@ -126,3 +127,4 @@ ORDER BY total_sales DESC;
 -- 11. CLEANUP (OPTIONAL)
 -- =====================================================
 -- DROP DATABASE sql_clause_lab;
+```
