@@ -195,6 +195,15 @@ UPDATE vw_high_paid_active
 SET salary = 999
 WHERE emp_id = 1; 
 
+/* vw_high_paid_active ဆိုတဲ့ View မှာ သတ်မှတ်ချက် ၂ ခု ရှိနေပါတယ် (ဘာလို့လဲဆိုတော့ သူက vw_active_employee_check ကို အခြေခံပြီး ဆောက်ထားပြီး CASCADED လို့ ပြောထားလို့ပါ)။
+
+    ပထမအခြေအနေ (အခြေခံ View မှ): ဝန်ထမ်းရဲ့ status သည် 'Active' ဖြစ်ရမည်။
+
+    ဒုတိယအခြေအနေ (လက်ရှိ View မှ): ဝန်ထမ်းရဲ့ salary သည် 800000 နှင့်အထက် (>= 800000) ဖြစ်ရမည်။
+
+WITH CASCADED CHECK OPTION ကို သုံးထားတဲ့အတွက် ဒီ View ထဲကနေတစ်ဆင့် Data ကို သွားပြင်တဲ့အခါ ဒီအခြေအနေ ၂ ခုလုံးနဲ့ ကိုက်ညီနေမှသာ MySQL က ပြင်ခွင့်ပေးမှာ ဖြစ်ပါတယ်။
+*/
+
 -- Error Code: 1369. CHECK OPTION failed 'view_demo.vw_high_paid_active'
 -- check current Check Option and underlying check option
 -- =====================================================
