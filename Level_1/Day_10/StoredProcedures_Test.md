@@ -115,7 +115,9 @@ DELIMITER ;
 -- =============================================
 -- EXECUTE InsertEmployee PROCEDURE
 -- =============================================
-
+-- InsertEmployee Procedure ကို အသုံးပြုခြင်း
+-- ခုရေးထားတဲ့ procedure အတိုင်းဆိုရင် multi insert သုံးလို့မရနိုင်သေးပါ သုံးချင်ရင်
+-- JSON Format နဲ့ ဒေတာတွေကို လက်ခံပြီး while loop ပတ်ပြီးသွင်းပေးမယ့် procedure အသစ်တစ်ခုဆောက်ပေးမှရပါမယ်။
 CALL InsertEmployee(
 
     'Hla Hla',
