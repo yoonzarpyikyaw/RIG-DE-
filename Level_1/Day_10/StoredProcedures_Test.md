@@ -1,3 +1,4 @@
+```sql
 -- =============================================
 -- COMPANY DATABASE STORED PROCEDURE LAB
 -- Beginner Level MySQL Stored Procedure Examples
@@ -369,3 +370,4 @@ WHERE Db = 'company_db';
 -- =============================================
 -- END OF LAB SCRIPT
 -- =============================================
+```
